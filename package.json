@@ -1,0 +1,15 @@
+{
+  "name": "code-foo-backend",
+  "version": "1.0.0",
+  "description": "Code Foo Backend Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keith Wong",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mysql": "^2.13.0"
+  }
+}
