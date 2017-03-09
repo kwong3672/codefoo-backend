@@ -1,4 +1,7 @@
 var express = require('express');
+var bodyParser = require('body-parser');
+var ignAPI = require('./utilities/ignAPI');
+
 var app = express();
 var port = 3000;
 
