@@ -1,3 +1,5 @@
+var insertDB = require('./insertDB').insertDB;
+
 console.log('loading ignAPI file');
 
 var jsonp = require('node-jsonp');
@@ -19,5 +21,6 @@ categories.forEach(function (category, idx) {
   jsonp(apiUrl, function (response) {
     apiData[category] = response.data;
     console.log('retrieved api : ' + category);
+    insertDB(category, response.data);
   });
 });
