@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title><![CDATA[Codefoo 2017 Backend Project]]></title>
+    <description><![CDATA[Codefoo Project to create a backend project that read/writes to a mySQL database and serves a RSS feed.]]></description>
+    <link>http://localhost:3000</link>
+    <generator>RSS for Node</generator>
+    <lastBuildDate>Wed, 15 Mar 2017 21:42:12 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Official Pokemon GO Johto Region Pokemon Trailer]]></title>
+      <description><![CDATA[Pokemon originally introduced in Gold and Silver are joining the Pokemon GO roster beginning this week.]]></description>
+      <link>http://www.ign.com/videos/2017/02/15/official-pokemon-go-johto-region-pokemon-trailer</link>
+      <guid isPermaLink="true">http://www.ign.com/videos/2017/02/15/official-pokemon-go-johto-region-pokemon-trailer</guid>
+      <category><![CDATA[videos]]></category>
+      <pubDate>Wed, 15 Feb 2017 11:59:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Nintendo Switch Japanese Commercial - FIFA 18 and Dragon Quest Heroes]]></title>
+      <description><![CDATA[Our first look at EA's gargantuan sports game comes courtesy of this little clip.]]></description>
+      <link>http://www.ign.com/videos/2017/02/15/nintendo-switch-japanese-commercial-fifa-18-and-dragon-quest-heroes</link>
+      <guid isPermaLink="true">http://www.ign.com/videos/2017/02/15/nintendo-switch-japanese-commercial-fifa-18-and-dragon-quest-heroes</guid>
+      <category><![CDATA[videos]]></category>
+      <pubDate>Wed, 15 Feb 2017 11:47:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Pokemon Go Adds 80 New Pokemon from Gold and Silver - IGN News]]></title>
+      <description><![CDATA[Niantic is adding the rest of the Johto region, plus new evolution items and Nanab and Pinap berries to aid in catching Pokemon.]]></description>
+      <link>http://www.ign.com/videos/2017/02/15/pokemon-go-adds-80-new-pokemon-from-gold-and-silver-ign-news</link>
+      <guid isPermaLink="true">http://www.ign.com/videos/2017/02/15/pokemon-go-adds-80-new-pokemon-from-gold-and-silver-ign-news</guid>
+      <category><![CDATA[videos]]></category>
+      <pubDate>Wed, 15 Feb 2017 11:38:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Apollyon: Samurai Story Mission 06 - For Honor Story Mode]]></title>
+      <description><![CDATA[This is a video of the Samurai story missions in the For Honor story mode. For Honor is made by Ubisoft for the PlayStation 4, Xbox One, and PC. The game focuses on three factions of warriors locked in a never-ending conflict. The Knights, Vikings, and Samurai are in constant struggle for control over their lands in both single player and multiplayer online battles.]]></description>
+      <link>http://www.ign.com/videos/2017/02/15/apollyon-samurai-story-mission-06-for-honor-story-mode</link>
+      <guid isPermaLink="true">http://www.ign.com/videos/2017/02/15/apollyon-samurai-story-mission-06-for-honor-story-mode</guid>
+      <category><![CDATA[videos]]></category>
+      <pubDate>Wed, 15 Feb 2017 06:19:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Honor: Samurai Story Mission 05 - For Honor Story Mode]]></title>
+      <description><![CDATA[This is a video of the Samurai story missions in the For Honor story mode. For Honor is made by Ubisoft for the PlayStation 4, Xbox One, and PC. The game focuses on three factions of warriors locked in a never-ending conflict. The Knights, Vikings, and Samurai are in constant struggle for control over their lands in both single player and multiplayer online battles.]]></description>
+      <link>http://www.ign.com/videos/2017/02/15/honor-samurai-story-mission-05-for-honor-story-mode</link>
+      <guid isPermaLink="true">http://www.ign.com/videos/2017/02/15/honor-samurai-story-mission-05-for-honor-story-mode</guid>
+      <category><![CDATA[videos]]></category>
+      <pubDate>Wed, 15 Feb 2017 05:16:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
