@@ -12,22 +12,14 @@ var db = mysql.createConnection({
 
 db.connect(function (err) {
   if (!err) {
-    console.log('Connected to codefoo-backend');
+    console.log('Connected to database: codefoo-backend');
+    // after connecting to DB load schema if tables does not exist
     loadSchema();    
   } else {
     console.log('Error connecting database');
     console.log(err);    
   }
 });
-
-// db.end(function (err) {
-//   if (!err) {
-//     console.log('Connection to DB ended');
-//   } else {
-//     console.log('Error disconnecting database');
-//     console.log(err);
-//   }
-// });
 
 var loadSchema = function () {
   fs.readFile('./server/utilities/schema.sql', 'utf-8', function (err, data) {
@@ -36,7 +28,6 @@ var loadSchema = function () {
       db.query(data, function (err, response) {
         if (!err) {
           console.log('Successfully queried database');
-          console.log(response);
         } else {
           console.log('Error querying database');
           console.log(err);
@@ -48,4 +39,16 @@ var loadSchema = function () {
     }
   });
 };
+
+// enable after determining when to end DB connection
+// db.end(function (err) {
+//   if (!err) {
+//     console.log('Connection to DB ended');
+//   } else {
+//     console.log('Error disconnecting database');
+//     console.log(err);
+//   }
+// });
+
+module.exports.db = db;
 
