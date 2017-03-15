@@ -5,14 +5,15 @@ var db = require('./mysql').db;
 var insertDB = function (category, data) {
   console.log('*********insertDB function*************');
 
-  db.query(createInsertString(category, data), function (err, results, fields) {
-    if (!err) {
-      console.log('mySQL Insert Successful');
-    } else {
-      console.log('!!!!!!!!!!!!!!!! ERROR inserting mySQL data');
-      console.log(err);
-    }
-  }); 
+  // re-enable when after done.  disabling so does not add to many entries in database
+  // db.query(createInsertString(category, data), function (err, results, fields) {
+  //   if (!err) {
+  //     console.log('mySQL Insert Successful');
+  //   } else {
+  //     console.log('!!!!!!!!!!!!!!!! ERROR inserting mySQL data');
+  //     console.log(err);
+  //   }
+  // }); 
 
 };
 
