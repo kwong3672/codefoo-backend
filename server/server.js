@@ -6,6 +6,8 @@ var queryDB = require('./utilities/queryDB').queryDB;
 var app = express();
 var port = 3000;
 
+app.use(express.static('public'));
+
 app.get('/', function (req, res) {
   res.send('Node Server Running on Port: ' + port);
 });
