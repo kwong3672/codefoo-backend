@@ -3,7 +3,6 @@ var fs = require('fs');
 var _ = require('lodash');
 
 var createRSS = function (data, category) {
-  console.log(data);
   var feed = new RSS({
     description: 'Codefoo Project to create a backend project that read/writes to a mySQL database and serves a RSS feed.',
     site_url: 'http://localhost:3000',
