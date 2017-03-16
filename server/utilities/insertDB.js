@@ -18,8 +18,6 @@ var insertDB = function (category, data) {
 };
 
 var createInsertString = function (category, data) {
-  console.log(data)
-  console.log('***************createInsertString****************');
   var insertString = [];
 
   _.forEach(data, function (articleOrVideo) {
