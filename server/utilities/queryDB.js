@@ -1,6 +1,6 @@
 var cron = require('node-cron');
 var db = require('./mysql').db;
-var createRSS = require('./rss').createRSS;
+var createRSS = require('./createRSS').createRSS;
 
 var queryDB = function (category) {
   db.query('SELECT * FROM ' + category + ' LIMIT 10', function (err, data) {
