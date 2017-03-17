@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title><![CDATA[Codefoo 2017 Backend Project]]></title>
+    <description><![CDATA[Codefoo Project to create a backend project that read/writes to a mySQL database and serves a RSS feed.]]></description>
+    <link>http://localhost:3000</link>
+    <generator>RSS for Node</generator>
+    <lastBuildDate>Fri, 17 Mar 2017 04:29:00 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Pokemon Go: See the New Hats, Berries, and Evolution Items]]></title>
+      <description><![CDATA[In addition to all the new Pokemon Niantic added a ton of new items to Pokemon Go.]]></description>
+      <guid isPermaLink="false">Pokemon Go: See the New Hats, Berries, and Evolution Items</guid>
+      <category><![CDATA[articles]]></category>
+      <pubDate>Fri, 17 Feb 2017 04:03:42 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Why 'Darmok' Still Holds Up 25 Years Later]]></title>
+      <description><![CDATA[The Star Trek Podcast beams on down with another review, and this time it’s S5's "Darmok." And we do the whole podcast in metaphor! (Not really.)]]></description>
+      <guid isPermaLink="false">Why &apos;Darmok&apos; Still Holds Up 25 Years Later</guid>
+      <category><![CDATA[articles]]></category>
+      <pubDate>Fri, 17 Feb 2017 03:05:11 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[These New Pokemon Are Now in Pokemon Go]]></title>
+      <description><![CDATA[The Johto Pokemon are finally in the wild.]]></description>
+      <guid isPermaLink="false">These New Pokemon Are Now in Pokemon Go</guid>
+      <category><![CDATA[articles]]></category>
+      <pubDate>Fri, 17 Feb 2017 02:00:19 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Powerless: "Sinking Day" Review]]></title>
+      <description><![CDATA[Van tries to land the big Atlantis account.]]></description>
+      <guid isPermaLink="false">Powerless: &quot;Sinking Day&quot; Review</guid>
+      <category><![CDATA[articles]]></category>
+      <pubDate>Fri, 17 Feb 2017 01:59:20 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Into the Badlands: New Season 2 Trailers Spotlight Sunny and the Widow]]></title>
+      <description><![CDATA[Get ready to fight again! ]]></description>
+      <guid isPermaLink="false">Into the Badlands: New Season 2 Trailers Spotlight Sunny and the Widow</guid>
+      <category><![CDATA[articles]]></category>
+      <pubDate>Fri, 17 Feb 2017 00:54:36 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Nintendo Switch Operating System, Menu Details Leak]]></title>
+      <description><![CDATA[Storage space, menu music, and more reportedly revealed.]]></description>
+      <guid isPermaLink="false">Nintendo Switch Operating System, Menu Details Leak</guid>
+      <category><![CDATA[articles]]></category>
+      <pubDate>Fri, 17 Feb 2017 00:49:38 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Pokemon Go: Evolve Eevee into Umbreon and Espeon ]]></title>
+      <description><![CDATA[Use this trick to get Umbreon or Espeon, guaranteed. ]]></description>
+      <guid isPermaLink="false">Pokemon Go: Evolve Eevee into Umbreon and Espeon </guid>
+      <category><![CDATA[articles]]></category>
+      <pubDate>Fri, 17 Feb 2017 00:31:46 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Mattel Reveals New Line of Halo Toys]]></title>
+      <description><![CDATA[Halo Wars 2 figures and more debuting this fall.]]></description>
+      <guid isPermaLink="false">Mattel Reveals New Line of Halo Toys</guid>
+      <category><![CDATA[articles]]></category>
+      <pubDate>Fri, 17 Feb 2017 00:16:29 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Resident Evil 7 Was the Best-Selling Game of January 2017]]></title>
+      <description><![CDATA[Number 3? Grand Theft Auto 5.]]></description>
+      <guid isPermaLink="false">Resident Evil 7 Was the Best-Selling Game of January 2017</guid>
+      <category><![CDATA[articles]]></category>
+      <pubDate>Thu, 16 Feb 2017 23:51:07 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Star Wars Rebels: New Clip Shows Sabine Clashing with Her Mother]]></title>
+      <description><![CDATA[Mandalorian Dearest.]]></description>
+      <guid isPermaLink="false">Star Wars Rebels: New Clip Shows Sabine Clashing with Her Mother</guid>
+      <category><![CDATA[articles]]></category>
+      <pubDate>Thu, 16 Feb 2017 23:38:34 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

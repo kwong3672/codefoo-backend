@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title><![CDATA[Codefoo 2017 Backend Project]]></title>
+    <description><![CDATA[Codefoo Project to create a backend project that read/writes to a mySQL database and serves a RSS feed.]]></description>
+    <link>http://localhost:3000</link>
+    <generator>RSS for Node</generator>
+    <lastBuildDate>Fri, 17 Mar 2017 04:29:00 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[Resident Evil 7 Was the Best-Selling Game of January 2017 - IGN News]]></title>
+      <description><![CDATA[Capcom's Resident Evil 7 Biohazard was the top-selling game in the US for the month of January, according to The NPD Group.]]></description>
+      <link>http://www.ign.com/videos/2017/02/17/resident-evil-7-was-the-best-selling-game-of-january-2017</link>
+      <guid isPermaLink="true">http://www.ign.com/videos/2017/02/17/resident-evil-7-was-the-best-selling-game-of-january-2017</guid>
+      <category><![CDATA[videos]]></category>
+      <pubDate>Fri, 17 Feb 2017 01:38:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[E3 2017: Bethesda Press Conference Confirmed, Date Announced - IGN News]]></title>
+      <description><![CDATA[Bethesda will once again hold an E3 press conference on the Sunday of E3 week, the publisher has announced.]]></description>
+      <link>http://www.ign.com/videos/2017/02/17/e3-2017-bethesda-press-conference-confirmed-date-announced-</link>
+      <guid isPermaLink="true">http://www.ign.com/videos/2017/02/17/e3-2017-bethesda-press-conference-confirmed-date-announced-</guid>
+      <category><![CDATA[videos]]></category>
+      <pubDate>Fri, 17 Feb 2017 00:35:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Toy Packaging Offers First Look at Rey, Finn and Poe in Star Wars: the Last Jedi - IGN News]]></title>
+      <description><![CDATA[Concept art for the packaging on an upcoming line of Star Wars: The Last Jedi toys has given us our first glimpse of the film's three heroes.]]></description>
+      <link>http://www.ign.com/videos/2017/02/16/toy-packaging-offers-first-look-at-rey-finn-and-poe-in-star-wars-the-last-jedi</link>
+      <guid isPermaLink="true">http://www.ign.com/videos/2017/02/16/toy-packaging-offers-first-look-at-rey-finn-and-poe-in-star-wars-the-last-jedi</guid>
+      <category><![CDATA[videos]]></category>
+      <pubDate>Thu, 16 Feb 2017 23:46:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Star Wars Rebels: Sabine Clashes with Her Mother]]></title>
+      <description><![CDATA[In the Star Wars Rebels episode "Legacy of Mandalore" -- airing February 18th, a Darksaber-wielding Sabine gets a chilly reception upon her return home.]]></description>
+      <link>http://www.ign.com/videos/2017/02/16/star-wars-rebels-sabine-clashes-with-her-mother</link>
+      <guid isPermaLink="true">http://www.ign.com/videos/2017/02/16/star-wars-rebels-sabine-clashes-with-her-mother</guid>
+      <category><![CDATA[videos]]></category>
+      <pubDate>Thu, 16 Feb 2017 23:32:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Star Wars: The Last Jedi Gives Us Our First Look - IGN Daily Fix]]></title>
+      <description><![CDATA[Get our first look at Star Wars: The Last Jedi, Crash Bandicoot N. Sane Trilogy gets a release date, and today's biggest stories.]]></description>
+      <link>http://www.ign.com/videos/2017/02/16/star-wars-the-last-jedi-gives-us-our-first-look-ign-daily-fix</link>
+      <guid isPermaLink="true">http://www.ign.com/videos/2017/02/16/star-wars-the-last-jedi-gives-us-our-first-look-ign-daily-fix</guid>
+      <category><![CDATA[videos]]></category>
+      <pubDate>Thu, 16 Feb 2017 23:32:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Dirt 4's Custom Stage Creator Is a Total Gamechanger]]></title>
+      <description><![CDATA[Endless rally stages await in Codemasters' upcoming off-road opus.]]></description>
+      <link>http://www.ign.com/videos/2017/02/16/dirt-4s-custom-stage-creator-is-a-total-gamechanger</link>
+      <guid isPermaLink="true">http://www.ign.com/videos/2017/02/16/dirt-4s-custom-stage-creator-is-a-total-gamechanger</guid>
+      <category><![CDATA[videos]]></category>
+      <pubDate>Thu, 16 Feb 2017 23:17:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[The Flash: ''Attack on Gorilla City'' Official Trailer]]></title>
+      <description><![CDATA[Get a look at the kick off to the big two-part storyline bringing Barry Allen and his friends into Gorilla Grodd's domain, beginning with the episode airing Tuesday, February 21st on the CW.]]></description>
+      <link>http://www.ign.com/videos/2017/02/16/the-flash-attack-on-gorilla-city-official-trailer</link>
+      <guid isPermaLink="true">http://www.ign.com/videos/2017/02/16/the-flash-attack-on-gorilla-city-official-trailer</guid>
+      <category><![CDATA[videos]]></category>
+      <pubDate>Thu, 16 Feb 2017 23:14:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Into the Badlands: Season 2 Teaser Trailer - Sunny is Ready for a Fight]]></title>
+      <description><![CDATA[Daniel Wu's Sunny is ready to deliver heart-pounding action in Season 2 of AMC's Into the Badlands - premiering Sunday, March 19th.]]></description>
+      <link>http://www.ign.com/videos/2017/02/16/into-the-badlands-season-2-teaser-trailer-sunny-is-ready-for-a-fight</link>
+      <guid isPermaLink="true">http://www.ign.com/videos/2017/02/16/into-the-badlands-season-2-teaser-trailer-sunny-is-ready-for-a-fight</guid>
+      <category><![CDATA[videos]]></category>
+      <pubDate>Thu, 16 Feb 2017 23:07:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Into the Badlands: Season 2 Teaser Trailer - The Widow's Vengeance]]></title>
+      <description><![CDATA[Emily Beecham's Widow is ready for some serious slicing and dicing in Season 2 of AMC's Into the Badlands - premiering Sunday, March 19th.]]></description>
+      <link>http://www.ign.com/videos/2017/02/16/into-the-badlands-season-2-teaser-trailer-the-widows-vengeance</link>
+      <guid isPermaLink="true">http://www.ign.com/videos/2017/02/16/into-the-badlands-season-2-teaser-trailer-the-widows-vengeance</guid>
+      <category><![CDATA[videos]]></category>
+      <pubDate>Thu, 16 Feb 2017 23:07:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Dropzone: A Unique Blend of RTS and MOBA - IGN Plays]]></title>
+      <description><![CDATA[Here are our first impressions of the RTS/MOBA hybrid Dropzone on Steam Early Access.]]></description>
+      <link>http://www.ign.com/videos/2017/02/16/dropzone-a-unique-blend-of-rts-and-moba-ign-plays</link>
+      <guid isPermaLink="true">http://www.ign.com/videos/2017/02/16/dropzone-a-unique-blend-of-rts-and-moba-ign-plays</guid>
+      <category><![CDATA[videos]]></category>
+      <pubDate>Thu, 16 Feb 2017 21:45:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
