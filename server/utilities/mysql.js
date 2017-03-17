@@ -1,8 +1,11 @@
-var mysql = require('mysql');
-var fs = require('fs');
+var Promise = require('bluebird');
+var mysql = Promise.promisifyAll(require('mysql'));
+var fs = Promise.promisifyAll(require('fs'));
 
+Promise.promisifyAll(require('mysql/lib/Connection').prototype);
+Promise.promisifyAll(require('mysql/lib/Pool').prototype);
 
-var db = mysql.createConnection({
+var pool = mysql.createPool({
   host: 'localhost',
   user: 'root',
   password: '',
@@ -10,45 +13,32 @@ var db = mysql.createConnection({
   multipleStatements: true
 });
 
-db.connect(function (err) {
-  if (!err) {
-    console.log('Connected to database: codefoo-backend');
-    // after connecting to DB load schema if tables does not exist
-    loadSchema();    
-  } else {
-    console.log('Error connecting database');
-    console.log(err);    
-  }
-});
-
-var loadSchema = function () {
-  fs.readFile('./server/utilities/schema.sql', 'utf-8', function (err, data) {
-    if (!err) {
-      var schema = data;
-      db.query(data, function (err, response) {
-        if (!err) {
-          console.log('Successfully queried database');
-        } else {
-          console.log('Error querying database');
-          console.log(err);
-        }
-      });
-    } else {
-      console.log('Error reading file');
-      console.log(err);
-    }
+var getSqlConnection = function () {
+  return pool.getConnectionAsync().disposer(function (connection) {
+    try {
+      connection.release();
+    } catch (err) {}
   });
 };
 
-// enable after determining when to end DB connection
-// db.end(function (err) {
-//   if (!err) {
-//     console.log('Connection to DB ended');
-//   } else {
-//     console.log('Error disconnecting database');
-//     console.log(err);
-//   }
-// });
+var readSchema = function () {
+  fs.readFileAsync('./server/utilities/schema.sql', 'utf-8')
+  .then(function(schema) {
+    loadSchema(schema);  
+  }).catch(function(err) {
+    throw err;
+  });
+};
 
-module.exports.db = db;
+var loadSchema = function (schema) {
+  Promise.using(getSqlConnection(), function(connection) {
+    connection.queryAsync(schema)
+    .catch(function(err) {
+      throw err;
+    });
+  });
+};
 
+readSchema();
+
+module.exports.getSqlConnection = getSqlConnection;

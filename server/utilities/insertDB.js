@@ -1,20 +1,16 @@
 var _ = require('lodash');
-var db = require('./mysql').db;
-
+var Promise = require('bluebird');
+var getSqlConnection = require('./mysql').getSqlConnection;
 
 var insertDB = function (category, data) {
   console.log('*********insertDB function*************');
-
-  // re-enable when after done.  disabling so does not add to many entries in database
-  // db.query(createInsertString(category, data), function (err, results, fields) {
-  //   if (!err) {
-  //     console.log('mySQL Insert Successful');
-  //   } else {
-  //     console.log('!!!!!!!!!!!!!!!! ERROR inserting mySQL data');
-  //     console.log(err);
-  //   }
-  // }); 
-
+  var insertString = createInsertString(category, data);
+  Promise.using(getSqlConnection(), function(connection) {
+    connection.queryAsync(insertString)
+    .catch(function(err) {
+      throw err;
+    });
+  });
 };
 
 var createInsertString = function (category, data) {

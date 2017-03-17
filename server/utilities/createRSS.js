@@ -1,5 +1,6 @@
 var RSS = require('rss');
-var fs = require('fs');
+var Promise = require('bluebird');
+var fs = Promise.promisifyAll(require('fs'));
 var _ = require('lodash');
 
 var createRSS = function (data, category) {
@@ -23,13 +24,12 @@ var createRSS = function (data, category) {
   var xml = feed.xml({indent: '  '});
 
   // save as xml files
-  fs.writeFile('./public/feeds/rss_' + category + '_feed.xml', xml, function (err) {
-    if (!err) {
-      console.log('Saved rss file');
-    } else {
-      console.log(err);
-      throw err;
-    }
+  var rssFileName = './public/feeds/rss_' + category + '_feed.xml';
+  fs.writeFileAsync(rssFileName, xml)
+  .then(function() {
+    console.log('Saved RSS files');
+  }).catch(function(err) {
+    throw err;
   });
 
   return xml;
