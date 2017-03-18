@@ -6,9 +6,9 @@
 
 ## Instructions:
 ### Setup
-Clone repository
-Install dependencies.  From root of project directory in a command line type 'npm install'
-Setup MySQL (If running mySQL locally)
+* Clone repository
+* Install dependencies.  From root of project directory in a command line type 'npm install'
+* Setup MySQL (If running mySQL locally)
 * Start MySQL by typing 'mysql.server start'
 * From command line typing 'mysql -u USERNAME - p'  (replace USERNANE with user name or root)
 * From Mysql prompt type 'CREATE DATABASE codefoo_backend;'
