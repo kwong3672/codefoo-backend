@@ -15,37 +15,27 @@ var insertDB = function (category, data) {
 
 var createInsertString = function (category, data) {
   var insertString = [];
-
   _.forEach(data, function (articleOrVideo) {
     var columns = [];
     var columnData = [];
     _.forEach(articleOrVideo, function (heading, headingKey) {
-      
       if (!Array.isArray(heading)) {
         _.forEach(heading, function (metadata, metadataKey) {
-          
           if (!Array.isArray(metadata)) {
             columnData.push(JSON.stringify(metadata));
           } else {
             columnData.push(JSON.stringify(JSON.stringify(metadata)));
           }
-
           columns.push(metadataKey);
-          
         });
       } else {
         columns.push(headingKey);
         columnData.push(JSON.stringify(JSON.stringify(heading)));
       }
-
     });
-
     insertString += 'INSERT INTO ' + category + ' (' + columns + ') VALUES (' + columnData + '); ';
-
   });
-    
   return insertString;
-
 };
 
 
