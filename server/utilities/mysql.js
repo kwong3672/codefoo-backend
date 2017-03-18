@@ -1,3 +1,4 @@
+require('dotenv').config();
 var Promise = require('bluebird');
 var mysql = Promise.promisifyAll(require('mysql'));
 var fs = Promise.promisifyAll(require('fs'));
@@ -6,9 +7,9 @@ Promise.promisifyAll(require('mysql/lib/Connection').prototype);
 Promise.promisifyAll(require('mysql/lib/Pool').prototype);
 
 var pool = mysql.createPool({
-  host: 'localhost',
-  user: 'root',
-  password: '',
+  host: process.env.MYSQL_HOST || 'localhost',
+  user: process.env.MYSQL_USER || 'root',
+  password: process.env.MYSQL_PASSWORD || '',
   database: 'codefoo_backend',
   multipleStatements: true
 });
