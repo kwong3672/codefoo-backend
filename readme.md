@@ -9,10 +9,10 @@
 Clone repository
 Install dependencies.  From root of project directory in a command line type 'npm install'
 Setup MySQL (If running mySQL locally)
-1 Start MySQL by typing 'mysql.server start'
-2 From command line typing 'mysql -u USERNAME - p'  (replace USERNANE with user name or root)
-3 From Mysql prompt type 'CREATE DATABASE codefoo_backend;'
-(Optional) Create .env file in root of project folder and save environmental variables for MySQL connection or change lines 10 - 12 of 'mysql.js'
+* Start MySQL by typing 'mysql.server start'
+* From command line typing 'mysql -u USERNAME - p'  (replace USERNANE with user name or root)
+* From Mysql prompt type 'CREATE DATABASE codefoo_backend;'
+* (Optional) Create .env file in root of project folder and save environmental variables for MySQL connection or change lines 10 - 12 of 'mysql.js'
 
 ### Run app that saves articles and videos from API to MySQL
 From command line in root of project folder type 'node server/utilities/saveAPIData.js'
