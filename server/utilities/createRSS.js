@@ -8,6 +8,11 @@ var createRSS = function (category) {
   
   queryDB(category)
   .then(function(data) {
+    // fixes bug where git clone not working
+    if (!data[0].publishDate) {
+      data = data[0];
+    }
+
     var feed = new RSS({
       description: 'Codefoo Project to create a backend project that read/writes to a mySQL database and serves a RSS feed.',
       site_url: 'http://localhost:3000',
