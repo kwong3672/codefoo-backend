@@ -3,10 +3,12 @@ var Promise = require('bluebird');
 var getSqlConnection = require('./mysql').getSqlConnection;
 
 var insertDB = function (category, data) {
-  console.log('*********insertDB function*************');
   var insertString = createInsertString(category, data);
   Promise.using(getSqlConnection(), function(connection) {
     connection.queryAsync(insertString)
+    .then(function() {
+      console.log('Data saved to DB successfully');
+    })
     .catch(function(err) {
       throw err;
     });
