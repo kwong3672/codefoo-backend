@@ -12,7 +12,7 @@ var jsonpGet = function () {
 
     // may need to use to promises depending on how data will be used (async)
     jsonp(apiUrl, function (response) {
-      console.log('retrieved api : ' + category);
+      console.log('retrieved ' + category + ' successfully from API');
       insertDB(category, response.data);
     });
   });
