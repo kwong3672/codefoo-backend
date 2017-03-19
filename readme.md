@@ -18,11 +18,12 @@
 From command line in root of project folder type 'node server/utilities/saveAPIData.js'
 
 ### Run service that reads MySQL and creates valid RSS feed
-From command line in root of project folder type 'node server/utilities/createRSS.js'
+From command line in root of project folder type 'node server/utilities/createRSS.js'<br />
+xml files will be saved in ./public/feeds folder 
 
 ### Additional Notes:
 To run a basic Node.js & Express server that will serve static files and the xml files<br />
-From command line in root of project folder type 'node server/server.js'
+From command line in root of project folder type 'node server/server.js'<br />
 
 (In web browser go to the following urls)<br />
 http://localhost:3000/feeds/rss_articles_feed.xml<br />
