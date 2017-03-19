@@ -26,7 +26,7 @@ var createRSS = function (category) {
         categories: [category],
         date: articleOrVideo.publishDate, 
         description: articleOrVideo.subheadline || articleOrVideo.description,
-        title: articleOrVideo.headline || articleOrVideo.longTitle,
+        title: articleOrVideo.headline || articleOrVideo.name,
         url: '' || articleOrVideo.url
       });
     });
