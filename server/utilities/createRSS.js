@@ -13,6 +13,7 @@ var createRSS = function (category) {
       data = data[0];
     }
 
+    // create RSS feed
     var feed = new RSS({
       description: 'Codefoo Project to create a backend project that read/writes to a mySQL database and serves a RSS feed.',
       site_url: 'http://localhost:3000',
@@ -44,6 +45,7 @@ var createRSS = function (category) {
 
 };
 
+// create one feed for articles and one feed for videos
 createRSS('articles');
 createRSS('videos');
 
